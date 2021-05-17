@@ -1,0 +1,94 @@
+.image img {
+    position: relative;
+}
+.image__num {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image__numA {
+    position: absolute;
+    left: 18.5%;
+    top: 40%;
+    cursor: pointer;
+}
+.image__numA::after {
+    content: "Привет,друг!";
+    padding: 10px;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    top: -300%;
+    left: -100%;
+    display: none;
+}
+.image__numA:hover::after {
+    display: block;
+}
+.image__numB {
+    position: absolute;
+    left: 42%;
+    top: 34%;
+    cursor: pointer;
+}
+.image__numB::after {
+    content: "Привет,друг!";
+    padding: 10px;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    top: -300%;
+    left: -100%;
+    display: none;
+}
+.image__numB:hover::after {
+    display: block;
+}
+.image__numC {
+    position: absolute;
+    left: 51.8%;
+    top: 35%;
+    cursor: pointer;
+}
+.image__numC::after {
+    content: "Привет,друг!";
+    padding: 10px;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    top: -300%;
+    left: -100%;
+    display: none;
+}
+.image__numC:hover::after {
+    display: block;
+}
+.image__numD {
+    position: absolute;
+    left: 65%;
+    top: 37%;
+    cursor: pointer;
+}
+.image__numD::after {
+    content: "Привет,друг!";
+    padding: 10px;
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    color: white;
+    top: -300%;
+    left: -100%;
+    display: none;
+}
+.image__numD:hover::after {
+    display: block;
+}
